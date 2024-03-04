@@ -1,0 +1,22 @@
+.letYourHome {
+    background-image: url(".././img/letyourHome.png");
+    height: 758px;
+    &__text-block {
+        padding-left: 52px;
+        padding-top: 208px;
+    }
+
+    &__content-head {
+        width: 40%;
+        margin-bottom: 18px;
+    }
+
+    &__content-desc {
+        width: 40%;
+        margin-bottom: 18px;
+    }
+
+    &__button {
+        margin-top: 3px;
+    }
+}

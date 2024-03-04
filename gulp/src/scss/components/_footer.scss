@@ -1,0 +1,53 @@
+.footer {
+    margin-top: 200px;
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    gap: 101px;
+    &__brand-block {
+    }
+
+    &__logo-block {
+        width: 65%;
+    }
+
+    &__media-links {
+        display: flex;
+        align-items: normal;
+        gap: 54px;
+        margin-top: 31px;
+
+        &__media-link{
+            width: 17px;
+        }
+    }
+
+    &__site-items {
+    }
+
+    &__site-item {
+    }
+}
+.brand-block {
+
+    &__content-desc {
+        width: 65%;
+    }
+}
+
+
+.site-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.site-item {
+    
+    &__content-head {
+
+    }
+
+    &__content-desc {
+        color:#4D5053 ;
+    }
+}

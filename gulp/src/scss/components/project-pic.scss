@@ -1,0 +1,33 @@
+.project-pic {
+    margin-top: 200px;
+    width: 100%;
+    height: 799px;
+    background-image: url(".././img/projectDetails.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+
+        &__zoom-icon {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    &__zoom-icon {
+        background-color: rgb(255, 255, 255);
+        width: 132px;
+        height: 132px;
+        border-radius: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.zoom-icon {
+
+    svg{
+        width: 37px;
+    }
+}

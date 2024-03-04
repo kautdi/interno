@@ -1,0 +1,24 @@
+.people {
+
+    background-color: #F4F0EC;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 185px calc(37.5% - 360px);
+    margin-top: 200px;
+    &__people-items {
+        display: flex;
+        gap: 22px;
+    }
+    &__content-head {
+        margin-bottom: 40px;
+        width: 35%;
+        text-align: center;
+    }
+}
+
+.people-items {
+}
+.item {
+}

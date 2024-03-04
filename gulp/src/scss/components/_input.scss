@@ -1,0 +1,65 @@
+.input{
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    font-size: $largeDesc;
+    font-family: $mainFont;
+
+    &::placeholder{
+        
+    }
+
+    &.checkbox{
+        width: 17px;
+        height: 17px;
+    }
+}
+
+.inputBlock{
+    width: 100%;
+    
+}
+textarea{
+    width: 100%;
+    height: 175px;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    font-size: $largeDesc;
+    font-family: $mainFont;
+    resize: none;
+
+    &::placeholder{
+
+    }
+    &:active{
+        outline: 0;
+        outline-offset: 0;
+    }
+    &:focus{
+        outline: 0;
+        outline-offset: 0;
+    }
+}
+.saveme{
+    display: flex;
+    align-items: center;
+}
+.search {
+    padding: 33px 34px;
+    background-color: #F4F0EC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+}
+.search-input {
+    color:#CDA274 ;
+    font-size: $largeDesc;
+    font-family: $mainFont;
+
+    &::placeholder{
+        color:#CDA274 ;
+    }
+}

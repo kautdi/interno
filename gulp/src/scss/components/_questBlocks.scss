@@ -1,0 +1,108 @@
+.questBlocks {
+    margin-top: 200px;
+    
+    &__everyQuestAnswer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    // .questBlocks__pic-quest
+
+    &__pic-quest {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        margin-top:50px;
+    }
+
+    // .questBlocks__questBlock
+
+    &__questBlock {
+
+    }
+
+    // .questBlocks__projectRelated
+
+    &__projectRelated {
+       
+    }
+}
+.everyQuestAnswer {
+
+    // .everyQuestAnswer__content-head
+
+    &__content-head {
+    }
+}
+
+.pic-quest {
+
+    // .pic-quest__pic-block
+
+    &__pic-block {
+        width: 100%;
+    }
+}
+.pic-block {
+
+}
+.questBlock {
+
+    width: 90%;
+
+    &__accordion {
+    }
+}
+.question {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CDA274;
+    &__quest {
+    }
+
+    // .question__content-desc
+
+    &__content-desc {
+    }
+
+    &__active{
+
+        .quest{
+
+            .content__head{
+                color: #CDA274;
+            }
+            svg{
+                transform: rotate(90deg);
+            }
+
+            &__desc{
+                display: block;
+            }
+        }
+    }
+}
+.quest {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 13px;
+    
+    
+
+    &__desc{
+        display: none;
+    }
+}
+
+.projectRelated {
+
+    // .projectRelated__content-head
+
+    &__content-head {
+    }
+}

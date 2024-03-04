@@ -1,0 +1,7 @@
+.projects-items {
+    display: grid;
+    grid-gap: 5px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+    grid-template-rows: repeat(4, 1fr);
+  }

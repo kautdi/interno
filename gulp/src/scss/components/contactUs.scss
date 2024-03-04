@@ -1,0 +1,82 @@
+.contactUs {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__form-main{
+        display: flex;
+        gap:55px;
+    }
+
+    &__main-info {
+        background-color: #F4F0EC;
+        border-radius: 50px;
+        padding: 76px 32px 76px 32px;
+
+    }
+
+
+    &__botton {
+        
+    }
+    &__medialinks{
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+    }
+}
+.main-info {
+}
+.head {
+}
+.content {
+
+    // .content__head
+
+    &__head {
+    }
+
+    // .content__desc
+
+    &__desc {
+    }
+}
+.aboutProject {
+
+    // .aboutProject__content-head
+
+    &__content-head {
+    }
+}
+.prices-content {
+
+    // .prices-content__desc
+
+    &__desc {
+    }
+}
+
+.name-email {
+}
+.input-block {
+}
+.subject-phone {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+.button {
+
+    // .button__default
+
+    &__default {
+    }
+}

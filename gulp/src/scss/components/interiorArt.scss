@@ -1,0 +1,80 @@
+.interiorArt {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    &__interior {
+    }
+
+    // .interiorArt__content-head
+    &__line{
+        display: block;
+        height: 249px;
+        width: 1px;
+        border: 1px solid #CECECE;
+    }
+    &__content-head {
+        margin-bottom: 23px;
+    }
+
+    // .interiorArt__items
+
+    &__items {
+        list-style-type: none; /* Убираем исходные маркеры */
+        counter-reset: num; /* Задаём имя счетчика */
+        width: 100%;
+    }
+
+    // .interiorArt__item
+
+    &__item {
+        margin-bottom: 34px;
+        display: flex;
+        align-items: center;
+        
+        &::before{
+            content: counter(num) '. '; /* Выводим число */
+            counter-increment: num; /* Увеличиваем значение счётчика */
+            font-size: 20px;
+            color: #CDA274;
+            font-family: $headFont;
+            margin-right: 10px;
+
+        }
+        p{
+            margin-top: 5px;
+        }
+    }
+
+    // .interiorArt__content-desc
+
+    &__content-desc {
+    }
+
+    // .interiorArt__art
+
+    &__art {
+    }
+}
+.interior {
+}
+.content {
+
+    // .content__head
+
+    &__head {
+    }
+
+    // .content__desc
+
+    &__desc {
+    }
+}
+.items {
+}
+.item {
+}
+.art {
+}

@@ -1,0 +1,78 @@
+.miniProfile {
+
+   display: flex;
+    align-items: center;
+    gap: 53px;
+    margin-top: 200px;
+
+    &__picBlock {
+    }
+
+    // .miniProfile__textBlock
+
+    &__textBlock {
+        width:45%;
+    }
+
+    // .miniProfile__content-head
+
+    &__content-head {
+    }
+
+    // .miniProfile__position
+
+    &__position {
+        margin-bottom: 30px;
+    }
+
+    // .miniProfile__content-desc
+
+    &__content-desc {
+        
+    }
+
+    // .miniProfile__main-info
+
+    &__main-info {
+        text-align: left;
+        width: 55%;
+        margin-top: 32px;
+    }
+}
+.picBlock {
+}
+.textBlock {
+}
+.content {
+
+    // .content__head
+
+    &__head {
+    }
+
+    // .content__desc
+
+    &__desc {
+    }
+}
+.main-info {
+}
+.head {
+}
+.prices-content {
+
+    // .prices-content__desc
+
+    &__desc {
+    }
+}
+.medialinks {
+    width: 100%;
+}
+.contactUs {
+
+    // .contactUs__medialinks
+
+    &__medialinks {
+    }
+}

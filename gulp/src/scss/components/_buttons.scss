@@ -1,0 +1,45 @@
+.button{
+    font-family: $mainFont;
+    font-weight: 600;
+    font-size: $headSix;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    i{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    &__default{
+        padding: 26px, 54px, 26px, 54px;
+        border: 0px solid #FFF;
+        gap: 10px;
+        width: 253.14px;
+        height: 75.14px;
+        border-radius: 18px;
+        background-color: #292F36;
+    }
+    &__large{
+        padding: 26px, 54px, 26px, 54px;
+        gap: 10px;
+        width: 287.14px;
+        height: 75.14px;
+        border: 0px solid #FFF;
+        border-radius: 18px;
+        background-color: #292F36;
+    }
+    &__color{
+        padding: 26px 54px 26px 54px;
+        gap: 10px;
+        width: 287.14px;
+        height: 75.14px;
+        border: 0px solid #FFF;
+        border-radius: 18px;
+        background-color: $primaryOne;
+    }
+    &__readMore{
+        font-weight: 600;
+        color: #4D5053;
+    }
+}

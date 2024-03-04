@@ -1,0 +1,52 @@
+.aboutProject {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__main-info {
+        padding: 55px 84px;
+        background-color: #F4F0EC;
+        border-radius: 70px;
+        margin-right:42px ;
+        
+    }
+
+    // .aboutProject__content-head
+
+ 
+
+    // .aboutProject__text-block
+
+    &__text-block {
+        width: 80%;
+    }
+}
+.head{
+    padding-right: 50px;
+}
+td{
+    width: 184px
+}
+.content {
+
+    // .content__head
+
+    &__head {
+        
+    }
+
+    // .content__desc
+
+    &__desc {
+    }
+}
+.prices-content {
+
+    // .prices-content__desc
+
+    &__desc {
+    }
+}
+.text-block {
+}

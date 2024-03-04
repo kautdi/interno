@@ -1,0 +1,35 @@
+.banner {
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    &__about {
+        background-image: url(".././img/aboutus.png");
+    }
+
+    &__navigation-cart {
+    }
+}
+.navigation-cart {
+    background-color: rgb(255, 255, 255);
+    border-radius: 37px 37px 0px 0px;
+    padding: 41px 152px 41px 152px;
+    width: 503px;
+    text-align: center;
+    &__content-head {
+    }
+}
+.content {
+
+    &__head {
+    }
+
+    &__desc {
+    }
+}
+.navigation-cart-content {
+
+    &__desc {
+    }
+}

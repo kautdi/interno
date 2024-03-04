@@ -1,0 +1,22 @@
+.trandsDesc {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+
+    &__content-head {
+        width: 60%;
+    }
+
+    // .trandsDesc__content-desc
+
+    &__content-desc {
+        width: 80%;
+        font-size: 25px;
+    }
+
+    
+
+    &__sub-text {
+        color:  #CDA274;
+    }
+}

@@ -1,0 +1,57 @@
+.homeCreate {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__content-head {
+        margin-bottom: 33px;
+    }
+
+    // .homeCreate__content-desc
+
+    &__content-desc {
+        margin-bottom: 45px;
+    }
+
+    // .homeCreate__callUs
+
+    &__callUs {
+        margin-bottom: 47px;
+        width: 50%;
+    }
+
+    // .homeCreate__button
+
+    &__button {
+    }
+
+    // .homeCreate__pic-block
+    &__text-block{
+        width: 40%;
+    }
+    &__pic-block {
+        background-image: url(".././img/create.png");
+        width: 54%;
+        height: 653px;
+    }
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .text-block {
+        margin-top: 30px;
+    }
+}
+.button {
+
+    // .button__default
+
+    &__default {
+    }
+}
+.pic-block {
+}

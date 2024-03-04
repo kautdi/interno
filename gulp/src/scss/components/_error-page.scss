@@ -1,0 +1,55 @@
+.error-page {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__text-block {
+        padding-left: calc(37.5% - 360px);
+        display: flex;
+        flex-direction: column;
+        gap:23px ;
+    }
+
+    // .error-page__content-head
+
+    &__content-head {
+        width: 70%;
+    }
+    &__content-head-Big {
+        font-size: 250px;
+        height: 275px;
+    }
+
+    // .error-page__button
+
+    &__button {
+    }
+
+    // .error-page__pic-block
+
+    &__pic-block {
+        height: 83.8vh;
+        width: 50%;
+        background-image: url(".././img/404.png");
+        background-repeat: round;
+    }
+}
+.text-block {
+}
+.content {
+
+    // .content__head
+
+    &__head {
+    }
+}
+.button {
+
+    // .button__default
+
+    &__default {
+    }
+}
+.pic-block {
+}

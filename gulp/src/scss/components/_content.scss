@@ -1,0 +1,57 @@
+.content{
+    
+    &__head{
+        font-family: $headFont;
+
+        &__headBig{
+            color: #CDA274;
+            font-size: $headBig;
+        }
+
+        &__headOne{
+            font-size: $headOne;
+        }
+
+        &__headTwo{
+            font-size: $headTwo;
+        }
+        &__headThree{
+            font-size: $headThree;
+        }
+        &__headFour{
+            font-size: $headFour;
+        }
+        &__headFive{
+            font-size: $headFive;
+        }
+        &__headSix{
+            font-size: $headSix;
+        }
+        &__bold{
+            font-family: $mainFont;
+            font-weight: 600;
+        }
+    }
+    &__desc{
+        font-family: $mainFont;
+        &__large{
+            font-size: $largeDesc;
+        }
+        &__mid{
+            font-size: $midDesc;
+        }
+        &__small{
+            font-size: $smallDesc;
+        }
+        &__saveme{
+            color: #CDA274;
+            font-size: 18px;
+            line-height: 22.5px;
+        }
+    }
+    &__num{
+        font-size: 120px;
+        color: rgb(255, 255, 255);
+        font-family: $headFont;
+    }
+}

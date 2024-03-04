@@ -1,0 +1,53 @@
+.doresult {
+
+   margin-top: 200px;
+    &__item {
+        margin-bottom: 150px;
+    }
+    &__loveDesign{
+        margin-bottom: 200px;
+    }
+}
+.doresult-item {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__text-block {
+        width: 30%;
+        text-align: left;
+    }
+
+    // .doresult-item__content-head
+
+    &__content-head {
+        margin-bottom: 23px;
+    }
+
+    // .doresult-item__content-desc
+
+    &__content-desc {
+        margin-bottom: 41px;
+    }
+
+    // .doresult-item__button
+
+    &__button {
+    }
+}
+.text-block {
+
+    &__loveDesign{
+        width: 40%;
+    }
+}
+
+.button {
+
+    // .button__default
+
+    &__default {
+    }
+}
+.pic-block {
+}

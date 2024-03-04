@@ -1,0 +1,79 @@
+.prices {
+
+    margin-top: 200px;
+
+    &__prices-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    // .prices__prices-item
+
+    &__prices-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    &__content-head {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+
+    &__subtext {
+        margin-bottom: 28px;
+    }
+
+    // .prices__subtext-item
+
+    &__subtext-item {
+        margin-bottom: 10px;
+    }
+
+    // .prices__button
+
+    &__button {
+        width: 80%;
+    }
+}
+.prices-items {
+}
+.price-item {
+    padding: 64px 44.5px;
+    background-color: #F4F0EC;
+    border-radius: 33px;
+    text-align: center;
+    transition: 0.9s;
+
+    &:hover{
+        cursor: pointer;
+        -webkit-box-shadow: 6px -1px 31px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 6px -1px 31px 0px rgba(0,0,0,0.22);
+        box-shadow: 6px -1px 31px 0px rgba(0,0,0,0.22);
+    }
+}
+
+.prices-subtext {
+}
+.subtext-item {
+    
+}
+.prices-content {
+
+    // .prices-content__desc
+
+    &__desc {
+    }
+}
+.button {
+
+    // .button__default
+
+    &__default {
+    }
+}

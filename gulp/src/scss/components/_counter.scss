@@ -1,0 +1,30 @@
+.counter {
+    background-color:#F4F0EC;
+    padding: 151px 419px;
+    &__counter-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__counter-items{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 54px;
+
+    }
+    span{
+        height: 130px;
+        width: 1px;
+        border: 1px solid #CDA274;
+        display: block;
+    }
+}
+
+.counter-item {
+
+    &__content-head {
+    }
+    &__content-desc {
+    }
+}
