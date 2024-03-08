@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "65dfbca414a2fed8d5789249"
+  },
+  "fio": "John Smith",
+  "img": "1.png",
+  "position": "Design",
+  "descPeople": "July 1, 2023",
+  "email": "example@example.com",
+  "phone": "+77777777777",
+  "link": "linkexample.com",
+  "biograph": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in. Contrary to popular belief. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecting humour, or randomised words which don't look even slightly believable. Embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.",
+  "simpleFunc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in. Contrary to popular belief. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecting humour, or randomised words which don't look even slightly believable.",
+  "firstquesthead": "Website & Mobile App Design?",
+  "firstquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "secondquesthead": "How to Ensure Successful Projects?",
+  "secondquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "threequesthead": "International Trade Experience?",
+  "threequestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus."
+},
+{
+  "_id": {
+    "$oid": "75dfbca414a2fed8d5789250"
+  },
+  "fio": "Jane Doe",
+  "img": "2.png",
+  "position": "Marketing",
+  "descPeople": "August 5, 2023",
+  "email": "jane.doe@example.com",
+  "phone": "+88888888888",
+  "link": "janedoe-marketing.com",
+  "biograph": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "simpleFunc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "firstquesthead": "Social Media Strategy?",
+  "firstquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "secondquesthead": "Customer Engagement Techniques?",
+  "secondquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "threequesthead": "Experience in Global Campaigns?",
+  "threequestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus."
+},
+{
+  "_id": {
+    "$oid": "85dfbca414a2fed8d5789251"
+  },
+  "fio": "Alex Johnson",
+  "img": "3.png",
+  "position": "Development",
+  "descPeople": "September 10, 2023",
+  "email": "alex.johnson@example.com",
+  "phone": "+99999999999",
+  "link": "alexjohnson-dev.com",
+  "biograph": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "simpleFunc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "firstquesthead": "Front-end Technologies Expertise?",
+  "firstquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "secondquesthead": "Back-end Frameworks Mastery?",
+  "secondquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "threequesthead": "Collaboration in Cross-Functional Teams?",
+  "threequestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus."
+},
+{
+  "_id": {
+    "$oid": "95dfbca414a2fed8d5789252"
+  },
+  "fio": "Emily Brown",
+  "img": "4.png",
+  "position": "Finance",
+  "descPeople": "October 15, 2023",
+  "email": "emily.brown@example.com",
+  "phone": "+10101010101",
+  "link": "emilybrown-finance.com",
+  "biograph": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "simpleFunc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "firstquesthead": "Financial Planning Strategies?",
+  "firstquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "secondquesthead": "Risk Management Expertise?",
+  "secondquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "threequesthead": "Budgeting for Large Projects?",
+  "threequestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus."
+},
+{
+  "_id": {
+    "$oid": "05dfbca414a2fed8d5789253"
+  },
+  "fio": "Michael White",
+  "img": "5.png",
+  "position": "Human Resources",
+  "descPeople": "November 20, 2023",
+  "email": "michael.white@example.com",
+  "phone": "+12121212121",
+  "link": "michaelwhite-hr.com",
+  "biograph": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "simpleFunc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "firstquesthead": "Employee Recruitment Strategies?",
+  "firstquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "secondquesthead": "Workplace Diversity Initiatives?",
+  "secondquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "threequesthead": "Employee Relations Excellence?",
+  "threequestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus."
+},
+{
+  "_id": {
+    "$oid": "25dfbca414a2fed8d5789255"
+  },
+  "fio": "William Turner",
+  "img": "7.png",
+  "position": "Research and Development",
+  "descPeople": "January 5, 2024",
+  "email": "william.turner@example.com",
+  "phone": "+14141414141",
+  "link": "williamturner-rnd.com",
+  "biograph": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "simpleFunc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "firstquesthead": "Innovation in Research Projects?",
+  "firstquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "secondquesthead": "Collaborative Development Processes?",
+  "secondquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "threequesthead": "Adapting to Technological Advances?",
+  "threequestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus."
+},
+{
+  "_id": {
+    "$oid": "35dfbca414a2fed8d5789256"
+  },
+  "fio": "Sophia Miller",
+  "img": "8.png",
+  "position": "Customer Support",
+  "descPeople": "February 10, 2024",
+  "email": "sophia.miller@example.com",
+  "phone": "+15151515151",
+  "link": "sophiamiller-support.com",
+  "biograph": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "simpleFunc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "firstquesthead": "Providing Excellent Customer Service?",
+  "firstquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "secondquesthead": "Handling Customer Complaints?",
+  "secondquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "threequesthead": "Improving Customer Satisfaction?",
+  "threequestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus."
+},
+{
+  "_id": {
+    "$oid": "15dfbca414a2fed8d5789254"
+  },
+  "fio": "Olivia Davis",
+  "img": "6.png",
+  "position": "Sales",
+  "descPeople": "December 1, 2023",
+  "email": "olivia.davis@example.com",
+  "phone": "+13131313131",
+  "link": "oliviadavis-sales.com",
+  "biograph": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "simpleFunc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in...",
+  "firstquesthead": "Sales Growth Strategies?",
+  "firstquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "secondquesthead": "Customer Relationship Management?",
+  "secondquestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.",
+  "threequesthead": "Effective Negotiation Skills?",
+  "threequestdesc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus."
+}]

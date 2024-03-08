@@ -48,7 +48,7 @@ const Footer: FC = () => {
             </Link>
         </li>
         <li className="site-item footer__site-item">
-            <Link to="/ourProject" className="content__desc site-item__content-desc content__desc__largeDesc">
+            <Link to="/ourProject/0" className="content__desc site-item__content-desc content__desc__largeDesc">
                 Our Projects
             </Link>
         </li>
@@ -73,29 +73,25 @@ const Footer: FC = () => {
             <h1 className="content__head site-item__content-head content__head__headThree">Services</h1>
         </li>
         <li className="site-item footer__site-item">
-            <a href="" className="content__desc site-item__content-desc content__desc__largeDesc">
+            <Link to="/ourProject/2"  className="content__desc site-item__content-desc content__desc__largeDesc">
                 Kitchan
-            </a>
+            </Link>
         </li>
         <li className="site-item footer__site-item">
-            <a href="" className="content__desc site-item__content-desc content__desc__largeDesc">
+        <Link to="/ourProject/3"  className="content__desc site-item__content-desc content__desc__largeDesc">
                 Living Area
-            </a>
+            </Link>
         </li>
         <li className="site-item footer__site-item">
-            <a href="" className="content__desc site-item__content-desc content__desc__largeDesc">
-                OBathroom
-            </a>
+        <Link to="/ourProject/0"  className="content__desc site-item__content-desc content__desc__largeDesc">
+                Bathroom
+            </Link>
         </li>
+
         <li className="site-item footer__site-item">
-            <a href="" className="content__desc site-item__content-desc content__desc__largeDesc">
-                Dinning Hall
-            </a>
-        </li>
-        <li className="site-item footer__site-item">
-            <a href="" className="content__desc site-item__content-desc content__desc__largeDesc">
+            <Link to="/ourProject/2"  className="content__desc site-item__content-desc content__desc__largeDesc">
                 Bedroom
-            </a>
+            </Link>
         </li>
     </ul>
     <ul className="site-items footer__site-items">

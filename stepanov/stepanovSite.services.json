@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "65dfb3bd7ad95439f41ca30d"
+  },
+  "head": "Interior Work",
+  "desc": "There are many variations of the passages of lorem Ipsum from\navailable, majority.",
+  "headDesc": "We set the trends of\nmodern living\nServices.",
+  "descSingle": "It is a long established fact that a reader will be distracted by the of readable content of a page when looking at its layouts. The points spriof using that it has a more less normal. A wonderful serenity has taken pgossession of my entire soul, like these sweet mornings of spring which I enjoy with my for whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. When looking at its layouts the points spriof using that it has a more less normal. A wonderful serenity has taken pgossession of my entire soul, like these sweet mornings of spring which I enjoy with my for whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.",
+  "videoLink": "http://video.com"
+},
+{
+  "_id": {
+    "$oid": "65dfb5207ad95439f41ca30e"
+  },
+  "head": "Renovation Services",
+  "desc": "Revitalize your home with our comprehensive renovation services.",
+  "headDesc": "Experience the future of home improvement with our modern solutions.",
+  "descSingle": "From structural upgrades to aesthetic enhancements, we bring your vision to life.",
+  "videoLink": "http://video.com"
+},
+{
+  "_id": {
+    "$oid": "65dfb3bd7ad95439f41ca30f"
+  },
+  "head": "Landscape Design",
+  "desc": "Crafting beautiful outdoor spaces tailored to your preferences.",
+  "headDesc": "Nature-inspired designs that seamlessly blend with your surroundings.",
+  "descSingle": "Let us transform your backyard into a haven of tranquility. Connect with nature in the comfort of your own home.",
+  "videoLink": "http://video.com"
+},
+{
+  "_id": {
+    "$oid": "65dfb3bd7ad95439f41ca310"
+  },
+  "head": "Commercial Interiors",
+  "desc": "Elevate your workspace with our professional commercial interior services.",
+  "headDesc": "Strategic designs that enhance productivity and foster a positive environment.",
+  "descSingle": "Create a work atmosphere that inspires success. We specialize in optimizing office spaces for efficiency and aesthetics.",
+  "videoLink": "http://video.com"
+},
+{
+  "_id": {
+    "$oid": "65dfb3bd7ad95439f41ca311"
+  },
+  "head": "Custom Home Designs",
+  "desc": "Tailored designs to reflect your unique style and preferences.",
+  "headDesc": "Your dream home, personalized and brought to life by our expert team.",
+  "descSingle": "We work closely with you to create a living space that mirrors your personality. Embrace the extraordinary with custom home designs.",
+  "videoLink": "http://video.com"
+},
+{
+  "_id": {
+    "$oid": "65dfb3bd7ad95439f41ca312"
+  },
+  "head": "Smart Home Solutions",
+  "desc": "Upgrade your living experience with our cutting-edge smart home solutions.",
+  "headDesc": "Embrace the future of home automation and convenience.",
+  "descSingle": "Control your home's lighting, temperature, and security at your fingertips. Enjoy a seamless integration of technology and comfort.",
+  "videoLink": "http://video.com"
+}]

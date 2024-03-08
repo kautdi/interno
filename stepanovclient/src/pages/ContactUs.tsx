@@ -1,10 +1,22 @@
 import * as React from 'react';
 import Banner from '../components/Banner';
+import MailService from '../services/mail-service';
 
 export interface IContactUsProps {
 }
 
 export default function ContactUs (props: IContactUsProps) {
+
+    const [email, setEmail] = React.useState<string>('');
+    const [name, setName] = React.useState<string>('');
+    const [message, setMessage] = React.useState<string>('');
+    const [phone, setPhone] = React.useState<string>('');
+    const [subject, setSubject] = React.useState<string>('');
+
+    const handleSend = (e: any) => {
+        e.preventDefault();
+        MailService.ContactMail(name, email, subject, phone, message);
+    }
   return (
     <>
       <Banner head='ContactUs' navigate='Home / ContactUs' />
@@ -63,24 +75,24 @@ export default function ContactUs (props: IContactUsProps) {
         <form action="" method="post">
             <div className="name-email">
             <div className="input-block">
-                <input className="input" type="text" name="name" id="name" placeholder="Name"/>
+                <input className="input" value={name} onChange={e => setName(e.target.value)} type="text" name="name" id="name" placeholder="Name"/>
             </div>
             <div className="input-block">
-                <input className="input" type="text"  name="email" id="email" placeholder="Email"/>
+                <input className="input" value={email} onChange={e => setEmail(e.target.value)} type="text"  name="email" id="email" placeholder="Email"/>
             </div>
             </div>
             <div className="subject-phone">
                 <div className="input-block">
-                    <input className="input" type="text" name="name" id="name" placeholder="Subject"/>
+                    <input className="input"value={subject} onChange={e => setSubject(e.target.value)}  type="text" name="name" id="name" placeholder="Subject"/>
                 </div>
                 <div className="input-block">
-                    <input className="input" type="tel"  name="email" id="email" placeholder="Phone"/>
+                    <input className="input" value={phone} onChange={e => setPhone(e.target.value)} type="tel"  name="email" id="email" placeholder="Phone"/>
                 </div>
                 </div>
             <div className="input-block">
-                <textarea className="input" name="desc" id="desc"  placeholder="Hello Iam Intrested in.."></textarea>
+                <textarea className="input" value={message} onChange={e => setMessage(e.target.value)} name="desc" id="desc"  placeholder="Hello Iam Intrested in.."></textarea>
             </div>
-            <button className="button contactUs__botton button__default">
+            <button className="button contactUs__botton button__default" onClick={handleSend}>
                 Send Now
                 <i>
                     <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">

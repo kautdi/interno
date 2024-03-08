@@ -31,6 +31,7 @@ class TeamsService {
             throw error;
         }
     }
+    
 }
 
 module.exports = new TeamsService();

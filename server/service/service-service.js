@@ -1,8 +1,8 @@
-const ServiceSchema = require('../models/service-model');
+const ServiceModel = require('../models/service-model');
 
 class ServicesService {
     
-    async getAllService(queryParams) {
+    async getAllServices(queryParams) {
         try {
             const filter = {};
     
@@ -22,9 +22,40 @@ class ServicesService {
                 filter._id = queryParams._id; // No need for regex for _id
             }
     
-            const services = await ServiceSchema.find(filter);
+            const services = await ServiceModel.find(filter);
             return services;
         } catch (error) {
+            throw error;
+        }
+    }
+
+    async createService(head, desc, headDesc, descSingle, videoLink) {
+        try {
+            const newService = await ServiceModel.create({
+                head,
+                desc,
+                headDesc,
+                descSingle,
+                videoLink
+            });
+            return newService;
+        } catch (error) {
+            console.error("Ошибка при создании сервиса:", error);
+            throw error;
+        }
+    }
+    async updateService(id, head, desc, headDesc, descSingle, videoLink) {
+        try {
+            const newService = await ServiceModel.findByIdAndUpdate(id,{
+                head,
+                desc,
+                headDesc,
+                descSingle,
+                videoLink
+            });
+            return newService;
+        } catch (error) {
+            console.error("Ошибка при создании сервиса:", error);
             throw error;
         }
     }

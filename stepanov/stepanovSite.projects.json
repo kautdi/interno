@@ -1,0 +1,143 @@
+[{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca318"
+  },
+  "name": "Smart Home Solutions",
+  "desc": "Upgrade your living experience with our cutting-edge smart home solutions.",
+  "client": "Embrace the future.",
+  "category": "1",
+  "tags": "http://video.com",
+  "date": "20.12.2023",
+  "link": "http://video.com",
+  "img": "1.png"
+},
+{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca319"
+  },
+  "name": "Luxury Kitchen Designs",
+  "desc": "Transform your kitchen into a culinary masterpiece with our luxurious designs.",
+  "client": "Experience",
+  "category": "2",
+  "tags": "http://video.com",
+  "date": "15.02.2023",
+  "link": "http://video.com",
+  "img": "2.png"
+},
+{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca31a"
+  },
+  "name": "Cozy Living Room Makeover",
+  "desc": "Create a warm and inviting living space with our cozy makeover services.",
+  "client": "Turn your",
+  "category": "3",
+  "tags": "http://video.com",
+  "date": "10.06.2023",
+  "link": "http://video.com",
+  "img": "3.png"
+},
+{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca31b"
+  },
+  "name": "Outdoor Entertaining Spaces",
+  "desc": "Maximize your outdoor space with our entertaining solutions.",
+  "client": "Host ally ",
+  "category": "Bathroom",
+  "tags": "http://video.com",
+  "date": "05.09.2023",
+  "link": "http://video.com",
+  "img": "4.png"
+},
+{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca31c"
+  },
+  "name": "Office Workspace Optimization",
+  "desc": "Enhance productivity with our optimized office workspace solutions.",
+  "client": "for your team.",
+  "category": "2",
+  "tags": "http://video.com",
+  "date": "25.03.2023",
+  "link": "http://video.com",
+  "img": "5.png"
+},
+{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca31d"
+  },
+  "name": "Rustic Bedroom Retreat",
+  "desc": "Escape to a rustic paradise with our bedroom retreat designs.",
+  "client": "countryside-inspired bedroom.",
+  "category": "0",
+  "tags": "http://video.com",
+  "date": "12.08.2023",
+  "link": "http://video.com",
+  "img": "6.png"
+},
+{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca31e"
+  },
+  "name": "Eco-Friendly Home Solutions",
+  "desc": "Contribute to a sustainable future with our eco-friendly home solutions.",
+  "client": "Make environmentally conscious choices without compromising on style.",
+  "category": "3",
+  "tags": "http://video.com",
+  "date": "30.11.2023",
+  "link": "http://video.com",
+  "img": "7.png"
+},
+{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca31f"
+  },
+  "name": "Modern Bathroom Designs",
+  "desc": "Revitalize your bathroom with our modern and luxurious designs.",
+  "client": "Indulge in a spa-like experience within the comfort of your home.",
+  "category": "0",
+  "tags": "http://video.com",
+  "date": "18.04.2023",
+  "link": "http://video.com",
+  "img": "8.png"
+},
+{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca320"
+  },
+  "name": "Home Theater Experience",
+  "desc": "Bring the magic of the cinema to your home with our home theater solutions.",
+  "client": "Immerse yourself in a cinematic experience without leaving your living room.",
+  "category": "0",
+  "tags": "http://video.com",
+  "date": "22.07.2023",
+  "link": "http://video.com",
+  "img": "1.png"
+},
+{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca321"
+  },
+  "name": "Creative Kids' Spaces",
+  "desc": "Spark creativity in your children with our imaginative kids' space designs.",
+  "client": "Foster a playful and educational environment for your little ones.",
+  "category": "0",
+  "tags": "http://video.com",
+  "date": "08.01.2023",
+  "link": "http://video.com",
+  "img": "2.png"
+},
+{
+  "_id": {
+    "$oid": "65dfb5a37ad95439f41ca322"
+  },
+  "name": "Industrial Loft Living",
+  "desc": "Embrace the urban chic with our industrial loft living designs.",
+  "client": "Live in a space that combines raw aesthetics with modern functionality.",
+  "category": "2",
+  "tags": "http://video.com",
+  "date": "03.05.2023",
+  "link": "http://video.com",
+  "img": "3.png"
+}]

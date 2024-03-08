@@ -5,15 +5,20 @@ import Banner from '../components/Banner';
 import ProjectCard from '../components/OurProject/ProjectCard';
 import { IProject } from '../models/IProject';
 import ProjectsService from '../services/projects-service';
+import { useParams } from 'react-router-dom';
 
-export interface IOurProjectProps {}
+export interface IOurProjectProps {
+ 
+}
 
-export default function OurProject(props: IOurProjectProps) {
+export default function OurProject({}: IOurProjectProps) {
+  
+  const { id } = useParams<{ id: string }>();
   const [categoryId, setCategoryId] = useState<number>(0);
   const [projects, setProjects] = useState<IProject[]>([]);
 
-
   async function fetchProjects(){
+    
     try {
       const response = await ProjectsService.projetsSort(categoryId);
       setProjects(response.data);
@@ -24,6 +29,14 @@ export default function OurProject(props: IOurProjectProps) {
       
     }
   }
+  useEffect(() =>{
+    if (id !== undefined) {
+      setCategoryId(parseInt(id, 10));
+      console.log(categoryId)
+    }
+  }, []);
+
+  
   useEffect(() =>{
     fetchProjects();
   },[categoryId])

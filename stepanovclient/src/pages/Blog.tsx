@@ -47,7 +47,7 @@ export default function Blog() {
         </h1>
         <div className="news homepage__articleNews__news">
         {
-          news.slice(0, 6).map((newsItem: INews) => {
+          news.map((newsItem: INews) => {
             return (
               <div key={newsItem._id}>
                 <NewsCard id={newsItem._id} cardPic={`../img/news/${newsItem.imgLink}`} tagtext={newsItem.category} head={newsItem.head} date={newsItem.date} />

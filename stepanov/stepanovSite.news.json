@@ -1,0 +1,118 @@
+[{
+  "_id": {
+    "$oid": "65dfb94f14a2fed8d578923f"
+  },
+  "head": "Let’s Get Solution for Building Construction Work",
+  "date": "26 December, 2022",
+  "category": "Decor",
+  "imgLink": "1.png",
+  "desc": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in. Contrary to popular belief. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecting humour, or randomised words which don't look even slightly believable. Embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.",
+  "citata": "The details are not the details. They make the design.",
+  "headTwo": "Design sprints are great",
+  "descTwo": "Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus. Posuere in. Contrary to popular belief. There are many variations of passages of Lorem Ipsum available, but the majority have suffered. Contrary to popular belief. There are many variations of passages of Lorem Ipsum available, but the majority have suffered. Contrary to popular belief. There are many variations of passages of Lorem Ipsum available, but the majority have suffered. Contrary to popular belief. There are many variations of passages of Lorem Ipsum available, but the majority have suffered. Contrary to popular belief. There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+  "Tag": [
+    "Kitchen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65dfbc4f14a2fed8d5789242"
+  },
+  "head": "Tech Giants Collaborate on Smart Cities Initiative",
+  "date": "February 5, 2023",
+  "category": "Technology",
+  "imgLink": "2.png",
+  "desc": "Leading tech companies join forces to implement cutting-edge technologies in urban planning, transforming cities into intelligent, interconnected hubs.",
+  "citata": "The future is smart, and it starts with our cities.",
+  "headTwo": "AI's Role in Urban Transformation",
+  "descTwo": "Artificial Intelligence shapes the future of cities, optimizing infrastructure and services for a more sustainable and efficient urban life.",
+  "Tag": [
+    "Smart Cities",
+    "AI"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65dfbc6214a2fed8d5789243"
+  },
+  "head": "2023 Interior Design Trends Revealed",
+  "date": "March 20, 2023",
+  "category": "Decor",
+  "imgLink": "3.png",
+  "desc": "Explore the latest interior design trends shaping homes in 2023, from sustainable materials to minimalist aesthetics.",
+  "citata": "Design is not just what it looks like; it's how it works.",
+  "headTwo": "Minimalist Marvels",
+  "descTwo": "Discover the beauty of minimalist design in modern homes, emphasizing simplicity and functionality.",
+  "Tag": [
+    "Interior Design",
+    "Trends"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65dfbc6b14a2fed8d5789244"
+  },
+  "head": "Floating Cities: The Future of Coastal Living",
+  "date": "April 15, 2023",
+  "category": "Urban Development",
+  "imgLink": "1.png",
+  "desc": "Ambitious projects aim to create sustainable floating cities, providing a glimpse into the future of coastal living.",
+  "citata": "Adaptation is the key to survival.",
+  "headTwo": "Underwater Residences",
+  "descTwo": "Architects explore the possibility of underwater living, blending futuristic design with environmental consciousness.",
+  "Tag": [
+    "Floating Cities",
+    "Sustainability"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65dfbc7214a2fed8d5789245"
+  },
+  "head": "Revolutionizing Construction with 3D Printing",
+  "date": "May 8, 2023",
+  "category": "Technology",
+  "imgLink": "1.png",
+  "desc": "The construction industry embraces 3D printing technology, presenting faster and cost-effective methods for building structures.",
+  "citata": "Innovation is our greatest asset.",
+  "headTwo": "Printed Homes, Printed Future",
+  "descTwo": "Explore how 3D-printed homes are shaping the future of housing, combining efficiency with sustainability.",
+  "Tag": [
+    "3D Printing",
+    "Construction"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65dfbc7b14a2fed8d5789246"
+  },
+  "head": "Culinary-Inspired Kitchen Designs Take Center Stage",
+  "date": "June 12, 2023",
+  "category": "Home Improvement",
+  "imgLink": "2.png",
+  "desc": "Kitchen design trends borrow inspiration from culinary spaces, creating functional and aesthetically pleasing environments.",
+  "citata": "The kitchen is the heart of the home.",
+  "headTwo": "Smart Kitchens, Smarter Living",
+  "descTwo": "Discover how smart technologies are revolutionizing kitchen spaces, making cooking and living more convenient than ever.",
+  "Tag": [
+    "Kitchen Design",
+    "Smart Home"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65dfbc8514a2fed8d5789247"
+  },
+  "head": "AI in Architecture: A Game-Changer",
+  "date": "July 1, 2023",
+  "category": "Technology",
+  "imgLink": "3.png",
+  "desc": "Artificial Intelligence integrates into architectural processes, streamlining design and enhancing efficiency in creating innovative structures.",
+  "citata": "Architects dream, but AI designs.",
+  "headTwo": "Virtual Reality in Design",
+  "descTwo": "Explore how virtual reality is transforming the design process, allowing architects to visualize and refine their creations in immersive environments.",
+  "Tag": [
+    "AI",
+    "Virtual Reality"
+  ]
+}]

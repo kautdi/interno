@@ -1,18 +1,29 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import Store from './store';
 
+
+interface Storages{
+  store:Store,
+}
+const store = new Store();
+
+export const Context = createContext<Storages>({
+  store,
+})
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-
+  <Context.Provider value={{store}}>
   <BrowserRouter>
-    <App/>
+    <App />
   </BrowserRouter>
+  </Context.Provider>
 
 );
 

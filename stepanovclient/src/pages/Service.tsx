@@ -4,25 +4,42 @@ import Work from '../components/Main/Work';
 import HowWeWork from '../components/Service/Service/HowWeWork';
 import Join from '../components/Main/Join';
 import ServiceCard from '../components/Service/ServiceCard';
+import { IService } from '../models/IService';
+import ServicesService from '../services/services-service';
 
 export interface IServiceProps {
 }
 
 export default function Service (props: IServiceProps) {
+
+  const [services, setServices] = React.useState<IService[]>([]);
+
+  const fetchingServices = async () => {
+    
+    try {
+      const response = await ServicesService.fetchServices();
+      setServices(response.data);
+    }
+    catch{}
+  }
+
+  React.useEffect(() => {
+    fetchingServices();
+  }, [])
   return (
     <>
       <Banner head='Service' navigate='Home / Service'/>
-      <section className="work">
-        <ServiceCard id='65dfb3bd7ad95439f41ca30d' title='Interior Work' description='There are many variations of the passages of lorem Ipsum from
-available, majority.'/>
-        <ServiceCard id='65dfb5207ad95439f41ca30e' title='Renovation Services' description='Revitalize your home with our comprehensive renovation services.'/>
-        <ServiceCard id='65dfb3bd7ad95439f41ca30f' title='Landscape Design' description='Crafting beautiful outdoor spaces tailored to your preferences.'/>
-    </section>
-    <section className="work">
-        <ServiceCard id='65dfb3bd7ad95439f41ca310' title='Commercial Interiors' description='Elevate your workspace with our professional commercial interior services.'/>
-        <ServiceCard id='65dfb3bd7ad95439f41ca311' title='Custom Home Designs' description='Tailored designs to reflect your unique style and preferences.'/>
-        <ServiceCard id='65dfb3bd7ad95439f41ca312' title='Smart Home Solutions' description='Upgrade your living experience with our cutting-edge smart home solutions.'/>
-    </section>
+      <section className="work" style={{display:"flex", flexWrap: "wrap", gap:"60px"}}>
+      {
+            services.map((serviceItem: IService) => {
+              return (
+                <div key={serviceItem._id}>
+                  <ServiceCard title={serviceItem.head} description={serviceItem.desc} id={serviceItem._id} />
+                </div>
+              );
+            })
+          }
+      </section>
       <HowWeWork/>
       <Join/>
     </>

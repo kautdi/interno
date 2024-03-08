@@ -29,6 +29,38 @@ class NewsService {
             throw error;
         }
     }
+    async createNew(req, res, next) {
+            const {
+                head,
+                date,
+                category,
+                imgLink,
+                desc,
+                citata,
+                headTwo,
+                descTwo,
+                Tag
+            } = req.body;
+    
+            try {
+                const newRecord = await NewsShema.create({
+                    head,
+                    date,
+                    category,
+                    imgLink,
+                    desc,
+                    citata,
+                    headTwo,
+                    descTwo,
+                    Tag
+                });
+    
+                return res.json(newRecord);
+            } catch (error) {
+                next(error);
+            }
+        
+    }
 }
 
 module.exports = new NewsService();

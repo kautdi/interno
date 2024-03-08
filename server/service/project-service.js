@@ -39,6 +39,35 @@ class ProjectService {
             throw error;
         }
     }
+    async createProject(req, res, next) {
+        const {
+            name,
+            desc,
+            client,
+            category,
+            tags,
+            date,
+            link,
+            img,
+        } = req.body;
+
+        try {
+            const newRecord = await ProjectModel.create({
+                name,
+                desc,
+                client,
+                category,
+                tags,
+                date,
+                link,
+                img,
+            });
+
+            return res.json(newRecord);
+        } catch (error) {
+            next(error);
+        }
+    }
 }
 
 module.exports = new ProjectService();
