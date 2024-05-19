@@ -1,0 +1,297 @@
+<div className="calculator">
+    <h1 className="content__head navigation-cart__content-head content__head__headOne">
+        Calculator online
+    </h1>
+    <div className="calculator-block">
+        <div className="choice-items">
+            <div className="choice-item">
+                <p className="choice-name choice-item__choice-name">
+                    Select room type
+                </p>
+                <select className="choice-selected" >
+                    <option value="Room">Room</option>
+                    <option value="Studio apartment">Studio apartment</option>
+                    <option value="1-room apartment">1-room apartment</option>
+                    <option value="2-room apartment">2-room apartment</option>
+                    <option value="3-room apartment">3-room apartment</option>
+                    <option value="4-room apartment">4-room apartment</option>
+                    <option value="5-room apartment">5-room apartment</option>
+                    <option value="House, townhouse">House, townhouse</option>
+                </select>
+            </div>
+            <div className="choice-item choice-item__slider">
+                <div className="choice-display">
+                    <p className="choice-name choice-item__choice-name">
+                        Specify the footage of the room (m²)
+                    </p>
+                    <Input
+                    value={value}
+                    size="small"
+                    onChange={handleInputChange}
+                    onBlur={handleBlur}
+                    inputProps={{
+                    step: 20,
+                    min: 0,
+                    max: 200,
+                    type: 'number',
+                    'aria-labelledby': 'input-slider',
+                    
+                    }}
+                />
+                </div>
+                <Slider
+                    value={typeof value === 'number' ? value : 0}
+                    onChange={handleSliderChange}
+                    aria-labelledby="input-slider"
+                />
+            </div>
+            <div className="choice-block">
+                <h3 className="head choice-block__head">
+                    What you will need in a design project
+                </h3>
+                <div className="choice-inputs">
+                    {
+                        needs.map((need) => {
+                            return (
+                                <div className="choice-inputs-item">
+                                    <input type="checkbox" className='custom-checkbox' name="" id="" />
+                                    <p className="input-text">{need.name}</p>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+            </div>
+            <div className="choice-block">
+                <h3 className="head choice-block__head">
+                    The project includes
+                </h3>
+                <div className="counter-items">
+                    <div className="counter-item">
+                        <p className="input-text">Discounted products</p>
+                        <div className="counter-btns">
+                            <button className="btn btn__counter">
+                                -
+                            </button>
+                            <p className="">1</p>
+                            <button className="btn btn__counter">
+                                +
+                            </button>
+                        </div>
+                        <p className="counter-item__price">2000 руб</p>
+                    </div>
+                    <div className="counter-item">
+                        <p className="input-text">Discounted products</p>
+                        <div className="counter-btns">
+                            <button className="btn btn__counter">
+                                -
+                            </button>
+                            <p className="">1</p>
+                            <button className="btn btn__counter">
+                                +
+                            </button>
+                        </div>
+                        <p className="counter-item__price">2000 руб</p>
+                    </div>
+                    <div className="counter-item">
+                        <p className="input-text">Discounted products</p>
+                        <div className="counter-btns">
+                            <button className="btn btn__counter">
+                                -
+                            </button>
+                            <p className="">1</p>
+                            <button className="btn btn__counter">
+                                +
+                            </button>
+                        </div>
+                        <p className="counter-item__price">2000 руб</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="choice-block">
+                <h3 className="head choice-block__head">
+                The manager will clarify the cost of services by phone after ordering:
+                </h3>
+                <div className="choice-inputs">
+                    <div className="choice-inputs-item">
+                        <input type="checkbox" className='custom-checkbox' name="" id="" />
+                        <p className="input-text">Smart House </p>
+                    </div>
+                    {
+                        manage.map((manages) => {
+                            return (
+                                <div className="choice-inputs-item">
+                                    <input type="checkbox" className='custom-checkbox' name="" id="" />
+                                    <p className="input-text">{manages.name}</p>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+            </div>
+            <div className="choice-block">
+                <h3 className="head choice-block__head">
+                Additional options
+                </h3>
+                <div className="choice-selections">
+                   
+                    {
+                        options.map((options, i) =>(
+                            <div className="choice-selection">
+                            <input type="checkbox" className='custom-checkbox' name="" id="" />
+                            <div className="text-block">
+                                <div className="head text-block__head">
+                                    {options.name}
+                                </div>
+                                <div className="desc text-block__desc">
+                                   {options.desc}
+                                </div>
+                            </div>
+                            <p className="price choice-selection__price">{options.price} руб</p>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </div>
+        <div className="itog-price-block">
+            <div className="itog-price-head">
+                <h3 className='head-text'>DESIGN PROJECT COST</h3>
+                <h2 className='price-sum'>47 900 Руб</h2>
+                <p className='prhead-desc'>{value * 9995} ₽ per m²</p>
+                <p className='prhead-desc'>The design project will be ready in 35-45 days</p>
+            </div>
+            <div className="itog-price-body">
+                <h3 className='body-text-dop'>В ДИЗАЙН-ПРОЕКТ ВКЛЮЧЕНО:</h3>
+                <div className="dop-item">
+                    <h2 className='dop-item-text'>3 планировочных решения</h2>
+                    <p className='dop-item-price'>2 000 ₽</p>
+                </div>
+                <button className="btn btn__zakaz">Заказать проект</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+const [value, setValue] = React.useState(30);
+    const [roomType, setRoomType] = React.useState<string>("");
+    const [planning, setPlanning] = React.useState<boolean>(false)
+    const [drawing, setDrawing] = React.useState<boolean>(false)
+    const [visualization, setVisualization] = React.useState<boolean>(false)
+    const [itogSum, setItog] = React.useState<number>(0)
+
+    const needs = [
+        {
+            name: '3D visualization',
+            price: 20000,
+        },
+        {
+            name: 'Discounted products',
+            price: 13000,
+        },
+        {
+            name: 'Drawings',
+            price: 14000,
+        },
+        {
+            name: 'Repair estimate',
+            price: 10000,
+        },
+        {
+            name: 'Planning solution',
+            price: 5000,
+        },
+        {
+            name: 'Custom-made furniture',
+            price: 11000,
+        },
+        {
+            name: 'Gazette (shopping list)',
+            price: 14000,
+        },
+    ]
+    const options = [
+        {
+            name: 'Preliminary drawings before rendering',
+            desc: 'If you plan to begin renovations before the design project is completed, order preliminary drawings.',
+            price: 3000,
+        },
+        {
+            name: 'Technical supervision',
+            desc: 'When ordering repairs in Rerooms - free of charge.',
+            price: 20000,
+        },
+        {
+            name: 'Authors supervision',
+            desc: '',
+            price: 30000,
+        },
+        {
+            name: '3D tour for viewing a design project ',
+            desc: '',
+            price: 6000,
+        },
+        {
+            name: 'Design project of an additional zone',
+            desc: '',
+            price: 5000,
+        },
+        {
+            name: 'Loggia design project',
+            desc: 'When paying for the service, the project time will be increased by 3 days.',
+            price: 3000,
+        },
+        {
+            name: 'Design project of a dressing room',
+            desc: 'When paying for the service, the project time will be increased by 3 days',
+            price: 5000,
+        }
+    ]
+    const manage = [
+        {
+            name: 'Smart House',
+            price: 40000,
+        },
+        {
+            name: 'Legalization of redevelopment',
+            price: 20000,
+        },
+        {
+            name: 'Electrical project',
+            price: 30000,
+        },
+        {
+            name: 'Water supply and sewerage project',
+            price: 20000,
+        },
+        {
+            name: 'Heating project',
+            price: 10000,
+        },
+        {
+            name: 'Air conditioning project',
+            price: 12000,
+        },
+    ]
+
+    const handleSliderChange = (event: Event, newValue: number | number[]) => {
+        setValue(newValue as number);
+      };
+    
+      const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setValue(event.target.value === '' ? 0 : Number(event.target.value));
+      };
+      const handleBlur = () => {
+        if (value < 0) {
+          setValue(0);
+        } else if (value > 100) {
+          setValue(100);
+        }
+      };
+    
+  

@@ -937,6 +937,8 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('./img/projectDetails.png') no-repeat;
+  height: 800px
 }
 .project-pic:hover__zoom-icon {
   width: 150px;

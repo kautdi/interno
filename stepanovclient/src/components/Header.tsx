@@ -42,6 +42,11 @@ const Header: FC<IAppProps> = () => {
             </Link>
           </li>
           <li className="nav-item">
+            <Link to="/сalculator" className="nav-link">
+                Calculator
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link to="/contact" className="nav-link">
               Contact
             </Link>

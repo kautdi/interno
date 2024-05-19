@@ -26,6 +26,8 @@ import Projects from './components/Admin/Projects';
 import ServiceAdmin from './components/Admin/Service';
 import News from './components/Admin/News';
 import NewsAdmin from './components/Admin/News';
+import  './style.scss';
+import Calculator from './pages/Calculator';
 
 function App() {
   const { store } = useContext(Context);
@@ -49,11 +51,11 @@ function App() {
         <div className="container">
           <Header />
           <Routes>
-            {/* Ваши маршруты для неавторизованного пользователя */}
+            
             <Route path="/" element={<Main />} />
             <Route path="/aboutUs" element={<AboutUs />} />
             <Route path="/service" element={<Service />} />
-            <Route path="/ourProject/:id" element={<OurProject />} />
+            <Route path="/ourProject/" element={<OurProject />} />
             <Route path="/projectDetails/:id" element={<ProjectDetails />} />
             <Route path="/ourteams/" element={<OurTeam />} />
             <Route path="/teams-detail/:id" element={<SingleProfessional />} />
@@ -62,6 +64,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/faq" element={<FaQ />} />
+            <Route path="/сalculator" element={<Calculator />} />
             <Route path="/pricingplan" element={<Pricing />} />
             <Route path='/restore' element={<Restore />} />
             <Route path='/*' element={<NotFount />} />
